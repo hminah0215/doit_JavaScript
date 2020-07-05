@@ -7,6 +7,17 @@
 	<title>직접 만들어 보는 함수</title>
 </head>
 <body>
+	<script>
+		function add(a,b){
+			var sum = a + b;
+			return sum;
+		}
 
+		var num1 = parseInt(prompt('첫번째 숫자를 입력해주세요',1234));
+		var num2 = parseInt(prompt('두번째 숫자를 입력해주세요',1234));
+
+		var result = add(num1, num2);
+		document.write("<p>"+ result +"</p>");
+	</script>
 </body>
 </html>
